@@ -32,7 +32,7 @@ export function ListNews() {
   }
 
   return (
-    <div className='card'>
+    <div className='cardList'>
       <div id='left' className='arrow' onClick={(e) => onClickHandler(e)}>
         <div  className='left'>
           <span></span>

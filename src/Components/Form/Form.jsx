@@ -1,6 +1,8 @@
+import { useNavigate } from 'react-router-dom'
 import './Form.scss'
 
 export function Form(){
+  const navigate = useNavigate();
   return(
     <div className='card'>
       <h1>Write your own story</h1>
@@ -14,7 +16,7 @@ export function Form(){
         <input id='srcImg' type='text'></input>
         <label for='byLine'>Author:</label>
         <input id='byLine' type='text'></input>
-        <input type='submit' value='send'></input>
+        <input type='submit' value='send' onClick={() => navigate('/list')}></input>
       </form>
     </div>
   )
