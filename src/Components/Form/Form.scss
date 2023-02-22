@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  height: 85vh;
+  width: 60%;
+  background-color: white;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  h4{
+    color: black;
+  }
+  
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 65vh;
+  justify-content: center;
+  align-items: center;
+  label{
+    font-size: large;
+    color: black;
+    font-weight:500;
+  }
+
+}
